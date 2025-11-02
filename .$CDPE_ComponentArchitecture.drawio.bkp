@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Página-1" id="0lh0HP1ylG1lIlx5TsdL">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-1" value="MinIO" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-5" value="Database" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="401.03000000000003" y="410" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-6" value="Concurrent Data Pipeline Engine" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" parent="1" vertex="1">
+          <mxGeometry x="380" y="180" width="75.48" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-7" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.prometheus;" parent="1" vertex="1">
+          <mxGeometry x="401.03000000000003" y="41.1" width="48.9" height="48.9" as="geometry" />
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-8" value="Grafana" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" parent="1" vertex="1">
+          <mxGeometry x="605.19" y="50" width="51.52" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-9" value="Prometheus" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="395.48" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424.98" y="300" as="sourcePoint" />
+            <mxPoint x="424.98" y="400" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466.71000000000004" y="225" as="sourcePoint" />
+            <mxPoint x="590" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="426.71000000000004" y="170" as="sourcePoint" />
+            <mxPoint x="426.71000000000004" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uCAMGBe3D14a5cdPoHTo-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466.71000000000004" y="70" as="sourcePoint" />
+            <mxPoint x="600" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efBVRBp4B9gkmKWpL0Gh-2" value="Redis Streams" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="35.71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="efBVRBp4B9gkmKWpL0Gh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="efBVRBp4B9gkmKWpL0Gh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efBVRBp4B9gkmKWpL0Gh-5" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="110" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

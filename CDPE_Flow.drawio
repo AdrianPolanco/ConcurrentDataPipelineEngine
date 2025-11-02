@@ -1,0 +1,583 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Página-1" id="3fRpP3FWtZ5lMkIEQ0qP">
+    <mxGraphModel dx="2510" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-239" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-10" width="1150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="838.37" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="570" y="174.5" width="70" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-2" value="Redis Streams" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="587.15" y="210" width="35.71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="targetPoint" />
+            <mxPoint x="80" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="210" />
+              <mxPoint x="100" y="210" />
+              <mxPoint x="100" y="260" />
+              <mxPoint x="130" y="260" />
+              <mxPoint x="130" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-161" value="fetchs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-160">
+          <mxGeometry x="0.1318" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-3" value="Client" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;SAPIcon=Application_Frontend_Service" vertex="1" parent="1">
+          <mxGeometry x="20" y="171" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="158.96" y="185.34" width="31.68" height="34.66" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-6" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.up;" vertex="1" parent="1">
+          <mxGeometry x="174.77" y="206.5" width="21" height="25.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="90" as="targetPoint" />
+            <mxPoint x="399" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="399" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-8" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="280" y="170.75" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-10" value="Upload logs" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="151" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="201" as="sourcePoint" />
+            <mxPoint x="270" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-181" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1.&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-11">
+          <mxGeometry x="-0.46" y="-1" relative="1" as="geometry">
+            <mxPoint x="-51" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SpRWDPyCVdgGRJU-AfMH-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="305" y="110" />
+              <mxPoint x="51" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-17" value="POST /logs:&amp;nbsp; 202 - Accepted&amp;nbsp;&lt;div&gt;Body: jobId&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85.27000000000001" y="75" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="748.37" y="835" as="sourcePoint" />
+            <mxPoint x="748.37" y="915" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="748.37" y="905" />
+              <mxPoint x="748.37" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-105" value="abstracts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-97">
+          <mxGeometry x="-0.515" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-19" value="Read" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="728.37" y="775" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-20" value="MinIO: Raw Bucket" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#2875E2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="98" as="sourcePoint" />
+            <mxPoint x="610" y="168" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="98" />
+              <mxPoint x="610" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-30" value="publishes to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-28">
+          <mxGeometry x="0.3948" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="196" as="targetPoint" />
+            <mxPoint x="330" y="195.5" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-33" value="uploads to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-32">
+          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
+            <mxPoint x="46" y="-59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-31" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.eye;" vertex="1" parent="1">
+          <mxGeometry x="384" y="187.70000000000002" width="30" height="14.1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-34" value="POST /logs" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-35" value="Validation" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="369" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="300" as="targetPoint" />
+            <mxPoint x="735" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-63" value="invokes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-62">
+          <mxGeometry x="-0.0857" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-50" value="Consumer" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.subscription_portal" vertex="1" parent="1">
+          <mxGeometry x="720" y="165.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="185" as="sourcePoint" />
+            <mxPoint x="710" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="386" y="180" as="sourcePoint" />
+            <mxPoint x="30" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="386" y="170" />
+              <mxPoint x="350" y="170" />
+              <mxPoint x="350" y="46" />
+              <mxPoint x="30" y="46" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-55" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: rgb(184, 84, 80);&quot;&gt;POST /logs:&amp;nbsp; 400 - Bad Request If file type is not: .csv, .json, .log&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-56" value="Metrics" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="488.37" y="775" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-57" value="Transform" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="608.3700000000001" y="775" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-58" value="Notify" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="253.64" y="775" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-59" value="Export" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="368.37" y="775" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="SpRWDPyCVdgGRJU-AfMH-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="380" as="sourcePoint" />
+            <mxPoint x="630" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="480" />
+              <mxPoint x="630" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-70" value="creates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-69">
+          <mxGeometry x="-0.3802" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-60" value="Pipeline Factory" style="shape=image;editableCssRules=.*;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0wLjUgLTAuNSAyOCAyOCIgaGVpZ2h0PSIyOCIgd2lkdGg9IjI4Ij4mI3hhOwkgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LnN0MCB7IHN0b3AtY29sb3I6IHJnYigzNSwgMTQ5LCAyNTUpOyB9IC5zdDEgeyBzdG9wLWNvbG9yOiByZ2IoMCwgODcsIDIxMCk7IH0gPC9zdHlsZT4mI3hhOwk8ZGVmcz4mI3hhOwkJPGxpbmVhckdyYWRpZW50IGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB5Mj0iMjUuMzA5IiB4Mj0iMjMuNDU0IiB5MT0iMy40NzQiIHgxPSIyLjAzOSIgaWQ9IkEiPiYjeGE7CQkJPHN0b3AgY2xhc3M9InN0MCIvPiYjeGE7CQkJPHN0b3AgY2xhc3M9InN0MSIgb2Zmc2V0PSIxIi8+JiN4YTsJCTwvbGluZWFyR3JhZGllbnQ+JiN4YTsJPC9kZWZzPiYjeGE7CTxwYXRoIGZpbGw9InVybCgjQSkiIGQ9Ik0yNi45OTYgMTIuNDIybC02LjY1LTUuNTE2YTEuNCAxLjQgMCAwIDAtMS40ODQtLjE5NmMtLjQ5LjIyNC0uNzk4LjcyOC0uNzk4IDEuMjc0djIuNTM0TDEzLjcxIDYuOTA2YTEuNCAxLjQgMCAwIDAtMS40ODQtLjE5NmMtLjQ5LjIyNC0uNzk4LjcyOC0uNzk4IDEuMjc0VjEyLjFIOC41ODZWLjljMC0uNzctLjYzLTEuNC0xLjQtMS40SC45Qy4xMy0uNS0uNS4xMy0uNS45djI1LjJjMCAuNzcuNjMgMS40IDEuNCAxLjRoMjUuMmMuNzcgMCAxLjQtLjYzIDEuNC0xLjRWMTMuNWExLjM5IDEuMzkgMCAwIDAtLjUwNC0xLjA3OHpNNS43NTggMjQuN0gyLjN2LTMuNWgzLjQ1OHptMC02LjNIMi4zdi0zLjVoMy40NTh6bTAtNi4zSDIuM1Y4LjgyNGgzLjQ1OHptMC02LjA3NkgyLjNWMi4zaDMuNDU4ek0yNC42ODYgMjQuN0g4LjU1OHYtMy41aDEuODQ4Yy43NyAwIDEuNC0uNjMgMS40LTEuNHMtLjYzLTEuNC0xLjQtMS40SDguNTU4di0zLjVIMTIuOGMuNzcgMCAxLjQtLjYzIDEuNC0xLjR2LTIuNTM0bDQuMzU0IDMuNjEyYTEuNCAxLjQgMCAwIDAgMS40ODQuMTk2Yy40OS0uMjI0Ljc5OC0uNzI4Ljc5OC0xLjI3NHYtMi41MzRsMy44NSAzLjE5MnptLTkuMzY2LTMuMTVhMS43NSAxLjc1IDAgMSAwIDAtMy41IDEuNzUgMS43NSAwIDEgMCAwIDMuNXptNi45My0xLjc1YTEuNzUgMS43NSAwIDEgMS0zLjUgMCAxLjc1IDEuNzUgMCAxIDEgMy41IDB6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="715" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-71" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Concurrent Data Pipeline Engine&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="549" y="620" width="262.45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-73" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Stages&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419.9999999999999" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-74" value="Raw logs" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="699" y="45.34" width="31.68" height="34.66" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="90" as="sourcePoint" />
+            <mxPoint x="680" y="58" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="90" />
+              <mxPoint x="640" y="58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-86" value="Download" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="848.37" y="775" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="750" as="sourcePoint" />
+            <mxPoint x="740" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="755" />
+              <mxPoint x="860" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-88" value="downloads" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-87">
+          <mxGeometry x="0.0131" relative="1" as="geometry">
+            <mxPoint x="2" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-93" value="CSV" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.csv_file;" vertex="1" parent="1">
+          <mxGeometry x="738.37" y="925" width="26" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-94" value="LOG" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.log_files;" vertex="1" parent="1">
+          <mxGeometry x="688.37" y="925" width="22.2" height="27.75" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-95" value="JSON" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json" vertex="1" parent="1">
+          <mxGeometry x="778.37" y="925" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="748.37" y="885" as="sourcePoint" />
+            <mxPoint x="698.37" y="915" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="698.37" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-100" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="748.37" y="885" as="sourcePoint" />
+            <mxPoint x="793.37" y="915" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="793.37" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="838.37" y="795" as="sourcePoint" />
+            <mxPoint x="778.37" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-108" value="Cleanup" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_roles;" vertex="1" parent="1">
+          <mxGeometry x="130" y="775" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="795" as="sourcePoint" />
+            <mxPoint x="660" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="795" as="sourcePoint" />
+            <mxPoint x="540" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="795" as="sourcePoint" />
+            <mxPoint x="420" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-118" value="MinIO: Processed Bucket" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#2875E2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="368.37" y="905" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="388" y="845" as="sourcePoint" />
+            <mxPoint x="388" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-120" value="stores processed file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-119">
+          <mxGeometry x="-0.048" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="540" as="sourcePoint" />
+            <mxPoint x="20" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="510" />
+              <mxPoint x="10" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-121" value="Websocket" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;SAPIcon=SAP_Alert_Notification_service_for_SAP_BTP" vertex="1" parent="1">
+          <mxGeometry x="448.37" y="545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="795" as="sourcePoint" />
+            <mxPoint x="300" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SpRWDPyCVdgGRJU-AfMH-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="758" as="sourcePoint" />
+            <mxPoint x="448.3699999999999" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="273" y="610" />
+              <mxPoint x="400" y="610" />
+              <mxPoint x="400" y="572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-204" value="notifies completion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-123">
+          <mxGeometry x="0.0381" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="795" as="sourcePoint" />
+            <mxPoint x="180" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-126" value="MinIO: Raw Bucket" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#2875E2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="905" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="845" as="sourcePoint" />
+            <mxPoint x="150" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-128" value="cleans up raw file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-127">
+          <mxGeometry x="-0.048" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-129" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="150.68" y="930" width="18.28" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-130" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="379" y="905" width="18.28" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="190" as="sourcePoint" />
+            <mxPoint x="460" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="190" />
+              <mxPoint x="-40" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-135" value="subscribes to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-134">
+          <mxGeometry x="-0.3236" y="-2" relative="1" as="geometry">
+            <mxPoint y="-85" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SpRWDPyCVdgGRJU-AfMH-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-155" value="queries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-154">
+          <mxGeometry x="-0.1048" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SpRWDPyCVdgGRJU-AfMH-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-143" value="GET /results/{fileId}" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="186" y="410" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-144" value="Database" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="510" y="893" width="39" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="925" as="sourcePoint" />
+            <mxPoint x="500" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-148" value="stores URL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-145">
+          <mxGeometry x="-0.135" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="250" as="sourcePoint" />
+            <mxPoint x="170" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-150" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;reacts to completion and fetchs&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-149">
+          <mxGeometry x="0.2973" y="3" relative="1" as="geometry">
+            <mxPoint x="46" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-151" value="Database" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="330" y="408" width="39" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-157" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;GET /results/{fileId}: 200 - OK&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Body: Processed File Url&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38.910000000000004" y="388" width="164.73" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-158" value="Processed file" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#2875E2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="276" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-159" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;" vertex="1" parent="1">
+          <mxGeometry x="475.46999999999997" y="250" width="27.42" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-183" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="200" as="sourcePoint" />
+            <mxPoint x="150" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-185" value="2." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="399" y="60" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-186" value="3." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557.15" y="145.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-187" value="6." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="154.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-188" value="7." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="678.37" y="245" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-189" value="8." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="688.37" y="450" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-190" value="9." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="848.37" y="755" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-191" value="10." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="733.37" y="755" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-192" value="11." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="613.37" y="755" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-193" value="12." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="755" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-194" value="13." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="373.14" y="755" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-195" value="14." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-19.99999999999997" y="430" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-196" value="14." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="755" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-197" value="4." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-198" value="5." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="350" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-200" value="15." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-201" value="17." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="370" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-209" value="16." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-212" value="18." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="236" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-214" value="15." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="131" y="755" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-228" value="GET /jobs/status/{jobId}" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="464.18" y="360" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="381.5" as="targetPoint" />
+            <mxPoint x="590" y="382" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-231" value="queries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-230">
+          <mxGeometry x="-0.1026" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-229" value="Redis" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="595.95" y="363" width="44.05" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SpRWDPyCVdgGRJU-AfMH-228">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="63" y="249" as="sourcePoint" />
+            <mxPoint x="457" y="388" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="63" y="308" />
+              <mxPoint x="83" y="308" />
+              <mxPoint x="83" y="368" />
+              <mxPoint x="457" y="368" />
+              <mxPoint x="457" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-234" value="queries processing status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-233">
+          <mxGeometry x="0.1984" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-235" value="OPTIONAL" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="333" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1113.4500000000003" y="620" as="targetPoint" />
+            <mxPoint x="1113" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-243" value="visualizes metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-242">
+          <mxGeometry x="-0.06" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-236" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.prometheus;" vertex="1" parent="1">
+          <mxGeometry x="1089" y="766.1" width="48.9" height="48.9" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-237" value="Grafana" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" vertex="1" parent="1">
+          <mxGeometry x="1079.45" y="545" width="68" height="52.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-240" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="790" as="sourcePoint" />
+            <mxPoint x="1080" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-241" value="collects metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SpRWDPyCVdgGRJU-AfMH-240">
+          <mxGeometry x="-0.0267" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpRWDPyCVdgGRJU-AfMH-244" value="Prometheus" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1089" y="815" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
